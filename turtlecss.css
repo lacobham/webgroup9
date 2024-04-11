@@ -520,3 +520,7 @@ text-align: center;
 #myTopnav a.selected{
     background-color: #f9f9eb;
 }
+.smallimage{
+    width: auto;
+    height: 100%; 
+}
