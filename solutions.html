@@ -1,138 +1,90 @@
-<!DOCTYPE HTML>
-<!--
-	Massively by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-	<head>
-		<title>The Solutions</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> The Turtle Crew </title>
+  <link rel="stylesheet" href="turtlecss.css" />
+    <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <!--Style sheet for social media icons from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+  <!--grabs icon for hamburger navbar-->
+</head>
+  <body>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Introduction</a>
+    <a href="problem.html">Problem</a>
+    <a href="solutions.html">Solution</a>
+    <a href="team.html">Meet the Team</a>
 
-				<!-- Header -->
-					<header id="header">
-						<a class="logo">Solutions</a>
-					</header>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+  </div>
+<!-- java is used to make it responsive, it uses the onlick based on screen size and switches the nav bar layout from long navbar to hamburger-->
 
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Introduction</a></li>
-							<li ><a href="problem.html">Problem</a></li>
-							<li class="active"><a href="solutions.html">Solutions</a></li>
-							<li><a href="team.html">Team</a></li>
-						</ul>
-					</nav>
 
-				<!-- Main -->
-					<div id="main">
 
-						<!-- Post -->
-							<section class="post">
-								<header class="major">
-									<h1>Solutions</h1>
-									<p>This page contains the web solutions our group created to fulfill our problem statement. These solutions include an ArcGIS Survey123 survey, an ArcGIS Dashboard, and an ArcGIS StoryMap. See below for more detail on each solution.</p>
-								</header>
-								<section>
-								<h2>ArcGIS Survey123</h2>
-								<p>Survey123 text & screenshots</p>
-								<h2>ArcGIS Dashboard</h2>
-								<p>Dashboard text & screenshots (*Include that heat map didn't work with slider)</p>
-								<p>We learned how to utilize layer views in our Dashboard, by filtering fields we wanted to keep anaonymous and creating a study area to limit the data shown on the web map.
-								We hid fields like name and email, as well as the automatic fields added by Esri. As well, we drew a polygon around Ontario so any turtles sighted outside could be reported but would not be shown.</p>
-								<p>**Put in screenshot of layer view
-								**Put in REST endpoint screenshot</p>
-								<h2>ArcGIS StoryMap</h2>
-								<h3>Key Elements</h3>
-								<h4>Custom Theme</h4>
-								<p>To make our ArcGIS StoryMap we first made a custom theme called 'Turtles', which used the same colour as the bottom of the header. 
-								This allowed our StoryMap to flow smoothly rather than having a harsh divide between elements.</p>
-								<img src="photos/theme.png" alt="StoryMaps custom theme">
-								<p>We also used a custom separator to fit our overall message, making sure to have a transparent background so it blends in seamlessly.</p>
-								<img src="photos/separator.png" alt="Custom separator">	
-								<h4>Interactive Maps</h4>
-								<p>Our StoryMap has a map tour and an embedded web map from the results of our Survey123 form, letting the user move around and interact with specific points to get more information.</p>
-								<img src="photos/maptour.png" alt="StoryMaps map tour">
-								<img src="photos/peterborough.png" alt="Map tour gallery">
-								<h4>Embedded Link Cards</h4>
-								<p>We embedded our other solutions (Survey123 form, Dashboard, and web map), so that users could easily click on the cards and see how the different
-								solutions could be combined.</p>
-								<img src="photos/dashboard.png" alt="Dashboard embed card">
-								<img src="photos/survey.png" alt="Survey123 embed card">
-								</section>
-							</section>
 
-					</div>
+<header class="imageHeader">
+  <h1 class="header-start">High-Risk Areas for Turtles in Ontario</h1>  
+ 
+</header>
 
-				<!-- Footer -->
-					<footer id="footer">
-						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
-								</div>
-							</form>
-							<button onclick="myFunction()">Send Message</button>
-						</section>
-						<section class="split contact">
-							<section class="alt">
-								<h3>Address</h3>
-								<p>200 Albert St S, Lindsay, ON K9V 5E6</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(705) 333-0101</a></p>
-							</section>
-							<section>
-								<h3>Email</h3>
-								<p><a href="https://mail.google.com/">TurtleCrew@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-									<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-									<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-						</section>
-					</footer>
 
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; 2024 Turtle Crew</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
-					</div>
+<div class="w3-content w3-padding content-div">
 
-			</div>
+  <div class="w3-container w3-padding-32 text-dive" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Contacts Directory</h3>
+    <p><b>Phone Number:</b> 647-286-4220</p>
+    <p><b>LinkedIn:</b> www.linkedin.com/<br class= "Break650">in/TrueNorthConsulting</p>
+    <p><b>Instagram:</b> @True_North_Consulting</p>
+  </div>
+  
+  <!-- Project Section -->
+  <div class="w3-container w3-padding-32 text-dive" id="projects">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">Find Us</h3>
+    <p>Our main office is located at 577 River Road, Toronto, ON, L4P 6N4</p>
+    <p><b>Opening Hours:</b></p> 
+    <p>Monday - Friday</p>
+    <p>8:30 am - 4:30 pm</p>
+    <img class="R_ImageMap" src="Images/TNC_Map.png" alt="Map showing location of main office located at 577 River Road, Toronto, ON, L4P 6N4 " width="566" height="393" >
+    <!-- Image source: Screenshot from Google Maps, icon from https://icons8.com/icon/set/map-pin/color-->
+  </div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+  
+<!-- End page content -->
+</div>
 
-	</body>
+
+<footer class="w3-center w3-padding-16 bottom" id="footer">
+  <h2 id = "FooterTitle" >The Turtle Crew</h2>
+  <p id = "FooterTagline">Watch Out For Turtles</p>
+  <ul id="Footer-ul">
+    <!--The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.-->
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link, selected" href="index.html">Introduction</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="problem.html">Problem</a></li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="solutions.html">Solution</a> </li>
+    <li class = "Ft_Inline_Item"> <a class = "FT-Link" href="team.html">Meet the Team</a> </li>
+  </ul>
+  <!--to do a two column footer, the code and ideas from w3schools.com was used:https://www.w3schools.com/howto/howto_css_two_columns.asp-->
+  <div class = "FT-row">
+    <div class="FT-columnA">
+        <h3>Follow Us</h3>
+        <!--Social media icons and code idea from:https://www.w3schools.com/howto/howto_css_social_media_buttons.asp-->
+        <p><a href="#" class="fa fa-instagram"></a> @TheTurtleCrew </p>
+        <p>www.linkedin.com/in/<br class= "Break650">TheTurtleCrew </p>
+    </div>
+    <div class = "FT-columnM">
+      <img src="turtle_icon.png" alt="Turtle Crew logo." class ="R_Image">
+    </div>
+    <div class="FT-columnB">
+        <h3>Contact Us</h3>
+        <p> 577 River Road, Toronto, ON, L4P 6N4</p>
+        <p> 647-286-4220</p>
+    </div>
+  </div>
+  <!--code for the copyright from: https://careerkarma.com/blog/html-copyright-symbol/-->
+  <p id="Copyright">&copy; The Turtle Crew. All rights reserved. </p>
+</footer>
+<script src="turtle.js"></script>
+</body>
 </html>
