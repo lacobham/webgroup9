@@ -267,6 +267,9 @@ position: fixed;
     background-color: #4C704C ;
   
 }
+.centertext{
+text-align: center;
+}
 
 /*The list idea and parts of the code was inspired by these two websites: https://web-eau.net/en/blog/10-best-footer-html-css-snippets and https://learn.shayhowe.com/html-css/creating-lists/#:~:text=The%20quickest%20way%20to%20display,space%20between%20each%20list%20item.*/
 #Footer-ul {
