@@ -365,7 +365,7 @@ text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
+  width: auto;
 }
 /*Media section makes the columns respondive*/
 @media (max-width: 650px){
