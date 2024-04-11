@@ -510,4 +510,8 @@ text-align: center;
 }
 #imageclass{
 	width: auto;
+	height:auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
