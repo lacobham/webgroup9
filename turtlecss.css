@@ -414,7 +414,7 @@ text-align: center;
   height: auto;
 }
 	
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) { */
 .responsiveImages {
   width: 100%;
   height: auto;
@@ -504,7 +504,6 @@ text-align: center;
   	font-size: 16px;
   	margin: 4px 2px;
 	padding: 10px;
-}
 }
 #myTopnav a.selected{
     background-color: #f9f9eb;
