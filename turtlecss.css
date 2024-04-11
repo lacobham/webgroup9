@@ -405,6 +405,8 @@ position: fixed;
   width: 100%;
   height: auto;
 }
+	
+@media screen and (max-width: 900px) {
 .responsiveImages {
   width: 100%;
   height: auto;
