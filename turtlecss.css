@@ -416,7 +416,7 @@ text-align: center;
 	
 /* @media screen and (max-width: 900px) { */
 .responsiveImages {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
@@ -510,8 +510,4 @@ text-align: center;
 }
 #imageclass{
 	width: auto;
-	height:auto;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
 }
