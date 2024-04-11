@@ -494,11 +494,6 @@ text-align: center;
 .img_round {
 	border-radius: 50%;
 }
-
-#myTopnav a.selected{
-    background-color: #f9f9eb;
-}
-
 .buttonnew {
 	background-color: #698d69;
   	border: none;
@@ -510,4 +505,7 @@ text-align: center;
   	margin: 4px 2px;
 	padding: 10px;
 }
+}
+#myTopnav a.selected{
+    background-color: #f9f9eb;
 }
