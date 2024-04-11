@@ -1,21 +1,12 @@
 
 .imageHeader {
-    background-image: url("turtles.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)), url("turtles.jpg");
     background-size: cover;
     background-position: center;
 }
 
-.header-content {
-    padding: 20px;
-}
-
-/*.HeaderBoarder {
-    background: #4C704C;
-}*/
-
-
 .header-start {
-	padding-top: 50px;
+	padding-top: 200px;
 	color: white;
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-size: 26px;
@@ -23,27 +14,11 @@
 	text-align: center;
 	letter-spacing: 4px;
 	margin-top: 0px;
+	padding-bottom: 30px;
 
 }
-.header-end { 
-    color: white;
-	font-size: 16px;
-	font-family: "Segoe UI",Arial,sans-serif;
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 25px;
-    letter-spacing: 4px
-} 
 
-.header-middle{ 
-    color: white;
-	font-size: 16px;
-	font-family: "Segoe UI",Arial,sans-serif;
-	font-weight: bold;
-	text-align: center;
-	padding-bottom: 40px;
-    letter-spacing: 4px
-} 
+
 /*Logo class done by Matthew, image created by Faith*/
 .logo {
   max-width: 100%;
