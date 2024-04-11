@@ -87,6 +87,12 @@ margin:0;
 font-family:Verdana,sans-serif;
 }
 
+@media (max-width: 650px){
+    .imageclass {
+    width: 100%;
+    height: auto;
+    }
+
 /* this keeps the dropdown menu on the left of screen to keep it from getting hidden on small screens*/
 
 .dropdown-menu-right {
@@ -507,7 +513,4 @@ text-align: center;
 }
 #myTopnav a.selected{
     background-color: #f9f9eb;
-}
-#peterborough{
-	max-width: 948px;
 }
