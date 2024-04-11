@@ -315,7 +315,7 @@ position: fixed;
 .FT-columnB{
     max-width: 50vw;
     text-align: right;
-    margin-left: 5%;
+    
 }
 /* only used for the footer for the logo image*/
 
@@ -358,6 +358,12 @@ position: fixed;
 }
 .Break650{
     display: none;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 /*Media section makes the columns respondive*/
 @media (max-width: 650px){
