@@ -15,7 +15,7 @@
 
 
 .header-start {
-	padding-top: 130px;
+	padding-top: 50px;
 	color: white;
 	font-family: "Segoe UI",Arial,sans-serif;
 	font-size: 26px;
@@ -29,6 +29,7 @@
     color: white;
 	font-size: 16px;
 	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
 	text-align: center;
 	padding-bottom: 25px;
     letter-spacing: 4px
@@ -38,8 +39,9 @@
     color: white;
 	font-size: 16px;
 	font-family: "Segoe UI",Arial,sans-serif;
+	font-weight: bold;
 	text-align: center;
-	padding-bottom: 1px;
+	padding-bottom: 40px;
     letter-spacing: 4px
 } 
 /*Logo class done by Matthew, image created by Faith*/
