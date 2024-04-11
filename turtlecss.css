@@ -1,9 +1,10 @@
 
 .imageHeader {
-    background-image: url('photos/turtles.jpg');
+    background-image: url('turtles.jpg');
     background-size: cover;
     background-position: center;
 }
+
 .header-content {
     padding: 20px;
 }
