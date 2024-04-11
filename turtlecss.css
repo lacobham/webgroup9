@@ -366,6 +366,7 @@ position: fixed;
   width: 100%;
   height: auto;
   text-decoration: none;
+  margin-left: 15px;
 }
 .Break650{
     display: none;
