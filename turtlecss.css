@@ -93,6 +93,12 @@ font-family:Verdana,sans-serif;
     height: auto;
     }
 }
+@media (max-width: 1000px){
+    .imageclass {
+    width: 100%;
+    height: auto;
+    }
+}
 /* this keeps the dropdown menu on the left of screen to keep it from getting hidden on small screens*/
 
 .dropdown-menu-right {
