@@ -497,7 +497,7 @@ text-align: center;
 }
 
 #myTopnav a.selected{
-    background-color: #698d69;
+    background-color: #f9f9eb;
 }
 
 .buttonnew {
@@ -509,4 +509,5 @@ text-align: center;
   	display: inline-block;
   	font-size: 16px;
   	margin: 4px 2px;
+	padding: 10px;
 }
