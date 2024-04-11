@@ -308,7 +308,7 @@ position: fixed;
 }
 /*Creates columns for footer and then reused for some pages*/
 .FT-columnA{
-    max-width: 40vw;
+    max-width: 50vw;
     padding-left: 10%;
     margin-right: 5%;
     text-align: left;
