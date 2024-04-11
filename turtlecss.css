@@ -453,7 +453,6 @@ text-align: center;
     text-align: justify;
 
     }
-}
 .active,.ExpandingButton:hover{
     background-color: #1b451b;
 }
@@ -510,4 +509,5 @@ text-align: center;
   	font-size: 16px;
   	margin: 4px 2px;
 	padding: 10px;
+}
 }
