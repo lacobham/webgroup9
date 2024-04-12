@@ -65,6 +65,8 @@
     <img src="photos\updateddashboard.png" alt="Updated Dashboard" class="responsiveImages, imageclass">
     <br>
     <p><b>THIS WAY WE CAN SKIP THE MIDDLE-MAN JOB. WHO LIKES IT ANYWAY?</b></p>
+    <hr>
+    <hr>
     </div>
   
   <div class="w3-container w3-padding-32 text-dive content-div">
@@ -78,39 +80,78 @@
 	<img src="photos/query.PNG" alt="Query results" class="responsiveImages, imageclass">
 	<p>When looking at the Dashboard itself, it only showing 9 turtle sightings, because one of them was in the U.S., so the layer view filters this from the map.</p>
 	<img src="photos/view.PNG" alt="View results" class="responsiveImages, imageclass">
-
-<h4> Custom Icons on Dashboards</h4>
-<p>A cool tool we leaned was creating custom icons inside of Dashboard indicators using free SVG files. To create these icons all you have to do is go into the "Indicator" tab and click on the "Add icon", inside you will have the option to choose a custom icon.
-This is where you insert the SVG code that connects to your icon, to get this just download the SVG file and open its page source to get the code. Below is an example of what the workflow looks like in Dashboard.</p>
-<img src="photos/customIcon.png" alt="Custom Icon" class="responsiveImages, imageclass">
-
-<h4>Stacking Element on Dashboard </h4>
-<p> There is a visualization trick in Dashbaord that allow you to stack elements together like graphs, indicators, and gauges into one element. Each element added gets its own tab that the user can rename. This allows the user to add more information onto the Dashboard since it reduces space.
-This can be done by adding new elements on top of each other and holding "Shift", this will stack them together within the same space. Below is an example of the workflow within Dashbaord. </p>
-<img src="photos/stack.png" alt="Stack Element" class="responsiveImages, imageclass"> <img src="photos/pie.png" alt="Stack Element 2" class="responsiveImages, imageclass">
-  
+	<hr>
+	<h4>The Final Dashboard</h4>
+	<p>We created a dashboard using ArcGIS Dashboards to be able to show the data that was received from our survey in an interactive and fun, yet informative format. 
+		Different elements were included in the dashboard including the overall map showing the collected points, in indicator stating more important and immediate 
+		information, a list of all the points included in the layer being referenced, a gauge, a pie chart, and a bar graph. The final dashboard we completed can 
+		be found *here* – if that doesn’t load it can be seen in the following screenshot</p>
+	<img src="photos/dashboardrz.png" alt="Overall dashboard" class="responsiveImages, imageclass">
+	<hr>
+	<h4>Enhancements and Advanced Formatting</h4>
+	<p>The main thing that was learned in depth and explored more when completing the dashboard was how to further enhance certain traits of specific elements, such 
+		as the indicator and the list elements. Both of these have the options to add advanced formatting to them, as well as add in-line CSS to some of the text 
+		and displays – such as adding padding around the titles of most of the elements to ensure equal spacing.</p>
+	<p>An example of additional HTML/CSS formatting can be seen in the title of the list element on the dashboard, titled ‘Turtles in area’. A screenshot can be seen here:</p>
+	<img src="photos/dashboardhtml.png" alt="HTML in dashboard" class="imageclass, smallimage">
+	<hr>
+	<p>The CSS added to the source option in the title formatting allows it to have a darker green background than the rest of the table, a larger font size than the normal 
+		heading sizes, and added padding on the bottom to make the title centered vertically in the green border as well.</p>
+	<p>As mentioned before, along with adding CSS to certain text, Dashboards also gives you the option to do advanced formatting to further enhance your elements and data. 
+		A screenshot can be seen below of the advanced formatting window of the same list element:</p>
+	<img src="photos/dashboardadvfor.png" alt="Advanced formatting using Arcade language" class="imageclass, smallimage">
+	<hr>
+	<p>When writing advanced formatting, the code is in the Arcade language. This script is creating a new variable to show in the list called ‘timeFormatted’. This script 
+		is giving the list a way to show the amount of time between when the turtle was seen and the current time. This can be seen in the next screenshot, where the 
+		variable is being called with ‘{expression/timeFormatted} in the template box, and having the output of the time at the end of the first lines (i.e. 6 days): </p>
+	<img src="photos/dashboardformat.png" alt="Formatting the list" class="imageclass, smallimage">
+	<hr>
+	<h4>Limitations</h4>
+	<p>Although these methods give a nice way to look at the data, there are some limitations of dashboards. These limitations are noted below:</p>
+	<ul>
+		<li>-	When filling out the source CSS/HTML and switching from the source screen (where the CSS is inputted) to the format screen, if anything is incorrectly 
+			typed in, the format will change to include the entire code (which will then display on the format) and replace certain symbols with their UTF-8 entities 
+			(‘<’ will become ‘&lt;’). If this occurs, there is no way to undo it to get the old working code back, meaning it will have to be retyped again.</li>
+		<li>-	Without properly formatting the title of elements to be inside a ‘div’ or something similar, if the dashboard gets downsized enough, the titles inside 
+			elements will be cut out or covered over by the rest of the information in the element, making them unreadable without expanding them, which covers the 
+			rest of the information on the dashboard.</li>
+	</ul>
+	<hr>
+  	<h4>Custom Icons on Dashboards</h4>
+	<p>A cool tool we learned was creating custom icons inside of Dashboard indicators using free SVG files. To create these icons all you have to do is go into the "Indicator" tab and click on the "Add icon", inside you will have the option to choose a custom icon.
+	This is where you insert the SVG code that connects to your icon, to get this just download the SVG file and open its page source to get the code. Below is an example of what the workflow looks like in Dashboard.</p>
+	<img src="photos/customIcon.png" alt="Custom Icon" class="responsiveImages, imageclass">
+	<hr>
+	<h4>Stacking Element on Dashboard </h4>
+	<p> There is a visualization trick in Dashbaord that allow you to stack elements together like graphs, indicators, and gauges into one element. Each element added gets its own tab that the user can rename. This allows the user to add more information onto the Dashboard since it reduces space.
+	This can be done by adding new elements on top of each other and holding "Shift", this will stack them together within the same space. Below is an example of the workflow within Dashbaord. </p>
+	<img src="photos/stack.png" alt="Stack Element" class="responsiveImages, imageclass"> <img src="photos/pie.png" alt="Stack Element 2" class="responsiveImages, imageclass">
+  	<hr>
+	<hr>
   </div>
 
 <div class="w3-container w3-padding-32 text-dive">
-<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">ArcGIS StoryMaps</h3>
-<p><a href="https://storymaps.arcgis.com/stories/15bdd764142b496a84e5539e26ce017d" class="buttonnew">StoryMap</a></p>
-<h4>Custom Theme</h4>
-<p>To make our ArcGIS StoryMap we first made a custom theme called 'Turtles', which used the same colour as the bottom of the header. 
-This allowed our StoryMap to flow smoothly rather than having a harsh divide between elements.</p>
-<img src="photos/theme.png" alt="StoryMaps custom theme" class="imageclass, smallimage">
-<p>We also used a custom separator to fit our overall message, making sure to have a transparent background so it blends in seamlessly.</p>
-<img src="photos/separator.png" alt="Custom separator" class="imageclass, smallimage">	
-<h4>Interactive Maps</h4>
-<p>Our StoryMap has a map tour and an embedded web map from the results of our Survey123 form, letting the user move around and interact with specific points to get more information.</p>
-<img src="photos/maptour.png" alt="StoryMaps map tour" class="responsiveImages, imageclass">
-<img src="photos/peterborough.png" alt="Map tour gallery" class="responsiveImages, imageclass">
-<h4>Embedded Link Cards</h4>
-<p>We embedded our other solutions (Survey123 form, Dashboard, and web map), so that users could easily click on the cards and see how the different
-solutions could be combined.</p>
-<img src="photos/dashboard.png" alt="Dashboard embed card" class="responsiveImages, imageclass">
-<img src="photos/survey.png" alt="Survey123 embed card" class="responsiveImages, imageclass">
+	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16 border-padding">ArcGIS StoryMaps</h3>
+	<p><a href="https://storymaps.arcgis.com/stories/15bdd764142b496a84e5539e26ce017d" class="buttonnew">StoryMap</a></p>
+	<h4>Custom Theme</h4>
+	<p>To make our ArcGIS StoryMap we first made a custom theme called 'Turtles', which used the same colour as the bottom of the header. 
+	This allowed our StoryMap to flow smoothly rather than having a harsh divide between elements.</p>
+	<img src="photos/theme.png" alt="StoryMaps custom theme" class="imageclass, smallimage">
+	<p>We also used a custom separator to fit our overall message, making sure to have a transparent background so it blends in seamlessly.</p>
+	<img src="photos/separator.png" alt="Custom separator" class="imageclass, smallimage">	
+	<hr>
+	<h4>Interactive Maps</h4>
+	<p>Our StoryMap has a map tour and an embedded web map from the results of our Survey123 form, letting the user move around and interact with specific points to get more information.</p>
+	<img src="photos/maptour.png" alt="StoryMaps map tour" class="responsiveImages, imageclass">
+	<img src="photos/peterborough.png" alt="Map tour gallery" class="responsiveImages, imageclass">
+	<hr>
+	<h4>Embedded Link Cards</h4>
+	<p>We embedded our other solutions (Survey123 form, Dashboard, and web map), so that users could easily click on the cards and see how the different
+	solutions could be combined.</p>
+	<img src="photos/dashboard.png" alt="Dashboard embed card" class="responsiveImages, imageclass">
+	<img src="photos/survey.png" alt="Survey123 embed card" class="responsiveImages, imageclass">
   </div>
-  
+	  
 <!-- End page content -->
 </div>
 
